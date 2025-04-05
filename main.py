@@ -1,9 +1,8 @@
-from classes import AddressBook
+
 from helpers import parse_input, add_contact, change_contact, show_phone, show_contacts, add_birthday, show_birthday, birthdays, save_data, load_data
 
 
 def main():
-    b = AddressBook()
     book = load_data()
     print("Welcome to the assistant bot!")
     while True:
